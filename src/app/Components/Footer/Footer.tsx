@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import wifiImage from "../../../public/Assets/wifi.png";
+import wifiImage from "../../../../public/Assets/wifi.png";
 import foot from "./Footer.module.css";
 import Link from "next/link";
 
