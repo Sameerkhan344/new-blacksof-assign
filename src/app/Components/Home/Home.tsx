@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Homecss from "./Home.module.css";
-import Button from "@/Components/Button/Button";
-import background from "../../../public/Assets/Hero_section.png";
+import Button from "@/app/Components/Button/Button";
+import background from "../../../../public/Assets/Hero_section.png";
 
 const Home: React.FC = () => {
   return (

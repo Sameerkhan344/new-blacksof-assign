@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import lightimage from "../../../public/Assets/lightimage.png";
-import arrowimage from "../../../public/Assets/icon_png.png";
-import leftarrow from "../../../public/Assets/leftarrow.svg";
-import rightarrow from "../../../public/Assets/rightarrow.svg";
+import lightimage from "../../../../public/Assets/lightimage.png";
+import arrowimage from "../../../../public/Assets/icon_png.png";
+import leftarrow from "../../../../public/Assets/leftarrow.svg";
+import rightarrow from "../../../../public/Assets/rightarrow.svg";
 import background from "./Productspage.module.css";
 
 const Home: React.FC = () => {
@@ -33,7 +33,7 @@ const Home: React.FC = () => {
                     Centralized Control & Monitoring System
                   </h1>
                 </div>
-                <div className="hidden md:w-80 flex items-center p-[10px] border-[1px] border-solid border-[#869FFB]">
+                <div className=" md:w-80 flex items-center p-[10px] border-[1px] border-solid border-[#869FFB]">
                   <h1 className="text-[16px]">NEMA-Mounted VOLC 1160</h1>
                 </div>
                 <div className="w-50 flex items-center p-[10px] border-[1px] border-solid border-[#869FFB]">
@@ -64,10 +64,10 @@ const Home: React.FC = () => {
                 </div>
                 <div className="absolute bottom-0 left-[45%] transform-[-50%, 0%]">
                   <div className="flex items-center">
-                    <div className="flex w-[52.655px] h-[57.256px] shrink-0 bg-[#E4E4E4] items-center justify-center hidden">
+                    <div className="flex w-[52.655px] h-[57.256px] shrink-0 bg-[#E4E4E4] items-center justify-center ">
                       <Image src={leftarrow} alt="" />
                     </div>
-                    <div className="flex w-[52.655px] h-[57.256px] shrink-0 bg-[#E4E4E4] items-center justify-center hidden">
+                    <div className="flex w-[52.655px] h-[57.256px] shrink-0 bg-[#E4E4E4] items-center justify-center ">
                       <Image src={rightarrow} alt="" />
                     </div>
                   </div>

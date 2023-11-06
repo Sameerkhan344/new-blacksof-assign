@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-import wifiImage from "../../../public/Assets/wifi.png";
+import wifiImage from "../../../../public/Assets/wifi.png";
 import Link from "next/link";
 import Button from "../Button/Button";
 import { AiOutlineClose } from "react-icons/ai";

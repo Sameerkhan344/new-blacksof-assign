@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import lampimage from "../../../public/Assets/street_light_controler.png";
-import gateimage from "../../../public/Assets/gateway_png.png";
-import cloudimage from "../../../public/Assets/cloud_based management.png";
-import usersimage from "../../../public/Assets/users_png.png";
-import Evaluationimage from "../../../public/Assets/evaluation_png.png";
+import lampimage from "../../../../public/Assets/street_light_controler.png";
+import gateimage from "../../../../public/Assets/gateway_png.png";
+import cloudimage from "../../../../public/Assets/cloud_based management.png";
+import usersimage from "../../../../public/Assets/users_png.png";
+import Evaluationimage from "../../../../public/Assets/evaluation_png.png";
 import Image from "next/image";
 const Workpage: React.FC = () => {
   return (

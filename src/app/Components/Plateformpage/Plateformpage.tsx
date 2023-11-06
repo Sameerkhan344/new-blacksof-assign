@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import plateformimage from "../../../public/Assets/plateform-img.png";
+import plateformimage from "../../../../public/Assets/plateform-img.png";
 
 const Plateformpage: React.FC = () => {
   return (
